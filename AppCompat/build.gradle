@@ -5,7 +5,15 @@ plugins {
 
 
 }
-
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.kernel.appcompat'
+            artifactId = 'com.android.library'
+            version = 'v7'
+        }
+    }
+}
 android {
     namespace 'com.kernel.appcompat'
     compileSdk 33
