@@ -18,7 +18,7 @@ import java.util.Locale;
 *Do not make any changes!
 */
 
-public class AppCompat {
+public class MuhsinDeneme {
 
     public static void  supportLibrary(String packName, Activity  activity){
 
