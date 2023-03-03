@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.kernel.appcompatlibrary'
+    namespace 'com.kernel.appcompat'
     compileSdk 33
 
     defaultConfig {
